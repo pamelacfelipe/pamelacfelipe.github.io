@@ -60,6 +60,11 @@ p.hero-text {
   text-transform: uppercase;
 }
 
+.nav .nav-item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .nav-item:hover {
   cursor: pointer;
   text-decoration: line-through;
