@@ -24,18 +24,26 @@ body {
   flex-wrap: nowrap;
 }
 
-.hero-header > div {
-  width: 50%;
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.hero-header > div:first-child {
+.item {
+  width: calc(50% - 35px);
+  margin: 5px;
+}
+
+.item:first-child {
   display: flex;
   justify-content: flex-end;
 }
 
-.hero-header > div:last-child {
-  padding-left: 50px;
+.item:last-child {
   justify-content: center;
+  padding: 0px 25px;
 }
 
 h1.hero-title {
@@ -44,7 +52,6 @@ h1.hero-title {
 
 p.hero-text {
   line-height: 4vh;
-  max-width: 55%;
 }
 
 .nav {
@@ -68,6 +75,9 @@ p.hero-text {
 .nav-item:hover {
   cursor: pointer;
   text-decoration: line-through;
+}
+
+.nav-item a:hover {
   color: #ae1484;
 }
 
@@ -75,4 +85,40 @@ a.btn-icon > i.fa {
   font-size: 4vh;
   color: #ffffff;
   margin: 5px;
+}
+
+a.btn-icon > i.fa {
+  font-size: 4vh;
+  color: #ffffff;
+  margin: 5px;
+}
+
+@media all and (max-width: 900px){
+  .container > div:first-child > img {
+    width: 80%;
+    height: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+
+
+  .item:first-child {
+    display: flex;
+    justify-content: center;
+  }
+
+  .item:last-child {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 600px){
+  .item {
+    width: 60%;
+  }
 }
