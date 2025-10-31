@@ -1,5 +1,5 @@
-## Portfólio
+## pamelacfelipe.github.io
 
-It's always a working in progress project :smile: 
+Built entirely with vanilla JS, pure CSS, and HTML. No frameworks, just the basics that work. 🙃
 
-https://pamelacfelipe.github.io/
+You can check out the result [here](https://pamelacfelipe.github.io/).

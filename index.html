@@ -1,69 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="pamelacfelipe | Portfolio of Pamela C. Felipe" />
-    <meta name="keywords" content="Design, UX, UI, Front-end" />
+    <meta name="description" content="Pamela Felipe - Designer Engineer passionate for good design and front-end technologies. Portfolio and professional contact." />
+    <meta name="keywords" content="designer engineer, front-end developer, design, UX, UI, web development, portfolio" />
     <meta name="author" content="Pamela Felipe" />
-    <title>Pamela Felipe | Designer & Front-end Dev</title>
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Pamela Felipe | Designer Engineer" />
+    <meta property="og:description" content="Designer Engineer passionate for good design and front-end technologies" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://pamelacfelipe.github.io" />
+    <title>Pamela Felipe | Designer Engineer</title>
 
-    <!-- Montserrat -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+    <link rel="icon" href="images/favicon-light.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon-light.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon-dark.ico" type="image/x-icon" media="(prefers-color-scheme: dark)">
+    <link rel="shortcut icon" href="images/favicon-dark.ico" type="image/x-icon" media="(prefers-color-scheme: dark)">
 
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
-
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <section class="hero">
-        <div class="image-container">
-            <img src="images/img.png" alt="Pamela">
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="theme-toggle__icon theme-toggle__icon--light">
+            <path d="M232.6 56.1C225.9 51.7 217.5 50.9 210.1 53.9C202.7 56.9 197.4 63.5 195.9 71.3L175 174.6L71.7 195.4C63.9 197 57.3 202.4 54.3 209.7C51.3 217 52.1 225.5 56.5 232.2L114.7 320L56.5 407.8C52.1 414.5 51.3 422.9 54.3 430.3C57.3 437.7 63.9 443.1 71.7 444.6L175 465.4L195.9 568.7C197.5 576.5 202.9 583.1 210.2 586.1C217.5 589.1 226 588.3 232.7 583.9L320.5 525.7L408.3 583.9C415 588.3 423.4 589.1 430.8 586.1C438.2 583.1 443.6 576.5 445.1 568.7L466 465.5L569.2 444.6C577 443 583.6 437.6 586.6 430.3C589.6 423 588.8 414.5 584.4 407.8L526.2 320L584.4 232.2C588.8 225.5 589.6 217.1 586.6 209.7C583.6 202.3 577 196.9 569.2 195.4L465.8 174.6L445 71.3C443.4 63.5 438 57 430.6 53.9C423.2 50.8 414.8 51.7 408.1 56.1L320.4 114.3L232.6 56.1zM218.9 199.7L235.9 115.8L307.2 163.1C315.2 168.4 325.7 168.4 333.7 163.1L405 115.8L422 199.7C423.9 209.2 431.3 216.5 440.8 218.5L524.7 235.5L477.4 306.8C472.1 314.8 472.1 325.3 477.4 333.3L524.7 404.6L440.8 421.6C431.3 423.5 423.9 430.9 422 440.4L405 524.3L333.7 477C325.7 471.7 315.2 471.7 307.2 477L235.9 524.3L218.9 440.4C217 430.9 209.6 423.5 200.1 421.6L116.2 404.6L163.5 333.3C168.8 325.3 168.8 314.8 163.5 306.8L116.2 235.5L200.1 218.5C209.6 216.6 216.9 209.2 218.9 199.7zM271.6 320C271.6 293.3 293.3 271.6 320 271.6C346.7 271.6 368.4 293.3 368.4 320C368.4 346.7 346.7 368.4 320 368.4C293.3 368.4 271.6 346.7 271.6 320zM416.4 320C416.4 266.8 373.2 223.6 320 223.6C266.8 223.6 223.6 266.8 223.6 320C223.6 373.2 266.8 416.4 320 416.4C373.2 416.4 416.4 373.2 416.4 320z"/>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="theme-toggle__icon theme-toggle__icon--dark">
+            <path d="M303.3 112.7C196.2 121.2 112 210.8 112 320C112 434.9 205.1 528 320 528C353.3 528 384.7 520.2 412.6 506.3C309.2 482.9 232 390.5 232 280C232 214.2 259.4 154.9 303.3 112.7zM64 320C64 178.6 178.6 64 320 64C339.4 64 358.4 66.2 376.7 70.3C386.6 72.5 394 80.8 395.2 90.8C396.4 100.8 391.2 110.6 382.1 115.2C321.5 145.4 280 207.9 280 280C280 381.6 362.4 464 464 464C469 464 473.9 463.8 478.8 463.4C488.9 462.6 498.4 468.2 502.6 477.5C506.8 486.8 504.6 497.6 497.3 504.6C451.3 548.8 388.8 576 320 576C178.6 576 64 461.4 64 320z"/>
+        </svg>
+    </button>
+
+    <main class="page">
+        <div class="page__container">
+            <section class="hero">
+                <h1 class="hero__title">
+                    <span class="hero__intro">I'm Pamela,</span>
+                    a designer engineer passionate for <a href="https://designmuseum.org/discover-design/all-stories/what-is-good-design-a-quick-look-at-dieter-rams-ten-principles" 
+                    class="highlight" target="_blank">good design</a> and front-end technologies
+                </h1>
+
+                <a href="mailto:pamelacfelipe@gmail.com?subject=Portfolio contact&body=Hi! I'm interested in your work." class="button" aria-label="Let's talk">
+                    Let's talk
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="button__arrow" aria-hidden="true">
+                        <path d="M471.1 297.4C483.6 309.9 483.6 330.2 471.1 342.7L279.1 534.7C266.6 547.2 246.3 547.2 233.8 534.7C221.3 522.2 221.3 501.9 233.8 489.4L403.2 320L233.9 150.6C221.4 138.1 221.4 117.8 233.9 105.3C246.4 92.8 266.7 92.8 279.2 105.3L471.2 297.3z"/>
+                    </svg>
+                </a>
+            </section>
+            
+            <nav class="social" aria-label="Links das redes sociais">
+                <a href="https://www.linkedin.com/in/pamelacfelipe" class="social__link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
+                <a href="https://github.com/pamelacfelipe" class="social__link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GitHub</a>
+                <a href="https://www.behance.net/pamelacfelipe" class="social__link" target="_blank" rel="noopener noreferrer" aria-label="Behance">Behance</a>
+            </nav>
         </div>
-        <div class="text-container">
-            <h1>Pamela Felipe</h1>
-            <h2>
-                DESIGNER & <br>
-                FRONT-END DEVELOPER
-            </h2>
-            <a class="hero-btn" href="mailto:pamelacfelipe@gmail.com">
-                Get in touch
-            </a>
-            <ul class="social-media">
-                <li>
-                    <a target="_blank" href="https://behance.com/castorina" class="Behance">
-                        <i class="icon-behance"></i>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://dribbble.com/pamelacfelipe" class="Dribbble">
-                        <i class="icon-dribbble"></i>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://github.com/pamelacfelipe" class="GitHub">
-                        <i class="icon-github-alt"></i>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://www.linkedin.com/in/pamelacfelipe" class="LinkedIn">
-                        <i class="icon-linkedin"></i>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="https://twitter.com/pamelacfelipe" class="Twitter">
-                        <i class="icon-twitter"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </section>
+    </main>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
